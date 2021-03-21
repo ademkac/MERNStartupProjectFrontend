@@ -1,0 +1,39 @@
+main{
+  min-height: 80vh;
+  font-family: sans-serif;
+}
+.center{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.confirm a {
+  color: #6279AB;
+  font: inherit;
+  text-decoration: none;
+}
+
+.confirm a:hover {
+  color: #334f8d;
+}
